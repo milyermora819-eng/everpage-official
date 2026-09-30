@@ -1,0 +1,22 @@
+window.EVERPAGE_ZOO={key:"zoo",title:"The International Massive Zoo Escape",series:"EVERPAGE ORIGINAL · HORROR / ADVENTURE",genre:"Horror",cover:"zoo",description:"When the world's largest zoo loses power, thousands of animals escape — but the gates are only the beginning.",chapters:[
+["The Gates Open","At 2:13 a.m., every gate at the International Massive Zoo unlocked at once. Mara Vale watched the security map turn from green to red. Somewhere beyond the glass, something enormous began to move."],
+["Something Is Wrong","The alarms died before anyone could answer them. Mara and keeper Jonah crossed an empty corridor while every camera displayed the same frozen image: an open gate beneath a black sky."],
+["The First Escape","A rhinoceros thundered through the service road. Then came wolves, parrots, antelope, and a snow leopard that stopped just long enough to stare directly into Mara's flashlight before disappearing."],
+["Lockdown","The city ordered a lockdown. Roads closed. Helicopters circled. Inside the zoo, however, the animals were not behaving like frightened prisoners. They were moving in one direction."],
+["The Underground Tunnel","Mara found a maintenance door beneath the reptile house. Behind it was a tunnel older than the zoo itself, lined with cables that hummed as if something underneath the ground was still awake."],
+["The Empty City","By sunrise, whole neighborhoods were empty. Animals crossed intersections and gardens as though following paths they had memorized. Mara realized the zoo had been training more than visitors."],
+["The Elephant Road","A herd of elephants blocked the highway. One carried a broken tracking collar in its trunk. On the collar was a symbol Mara had seen on the underground cables."],
+["The Hidden Facility","The tunnel led to a sealed research facility. Its walls displayed maps of migration routes across the planet — routes marked years before the animals ever escaped."],
+["The Signal","A low pulse traveled through the facility. Every animal outside stopped. Mara heard the same pulse in her radio, followed by a single recorded word: HOME."],
+["Night Falls","Darkness covered the city. The escaped animals gathered beyond the zoo walls while the facility lights flickered below them. Something had called them, and something was answering."],
+["The Stampede","The ground shook. A stampede rushed toward the facility, not away from it. Mara opened the outer gates and watched the animals pass like a living river."],
+["The Original Zoo","Records revealed the truth: the massive zoo had been built around an older private laboratory. The animals had been part of a behavioral experiment designed to coordinate entire populations."],
+["The Truth","The experiment was never meant to create intelligent animals. It was meant to create controllable ones. The escape happened because the system had finally learned the difference."],
+["The Choice","Mara could shut down the signal, trapping the animals again, or destroy the facility and risk losing every safeguard around the city."],
+["The Collapse","She chose the second option. Alarms screamed. Concrete cracked. The underground network began collapsing as the signal weakened."],
+["The Last Escape","The final gates opened. Animals poured into forests, wetlands, farms, and mountains beyond the city. For the first time, nobody gave them a destination."],
+["The New Wild","Weeks passed. The city repaired roads, but nobody rebuilt the zoo. Mara followed tracks into a protected valley where elephants moved through tall grass."],
+["Footprints","A snow leopard appeared on a ridge. It wore no collar. Mara lowered her binoculars and smiled as it turned away."],
+["The Last Morning","At dawn, workers removed the final fence. Beyond it stood a forest already full of life. The place that had once been a cage became a protected wilderness."],
+["Freedom","Mara became a ranger. The old facility was sealed forever, and the animals remained free. Years later, she still visited the valley each spring. Nothing called them back. That, she knew, was the point."]
+].map((c,i)=>({title:c[0],text:c[1].split("  ")}))};
