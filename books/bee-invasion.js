@@ -1,0 +1,22 @@
+window.EVERPAGE_BEES={key:"bees",title:"The Bee Invasion",series:"EVERPAGE ORIGINAL · HORROR / SCIENCE FICTION",genre:"Horror",cover:"bees",description:"A strange swarm appears above a quiet town. Within days, the bees are everywhere — and they are communicating.",chapters:[
+["The Swarm","The first swarm arrived without sound. Elena Cruz saw thousands of bees hanging above the school roof like a dark cloud, perfectly still."],
+["The Silence","Every bee in town disappeared from flowers. Gardens went quiet. Then, at midnight, every streetlight flickered in the same rhythm."],
+["They Are Everywhere","The swarm spread across highways and rooftops. They did not attack randomly. They followed power lines, cell towers, and buried cables."],
+["The Laboratory","Elena discovered a closed laboratory outside town. Its walls were covered with diagrams of bee communication and one phrase: NETWORK COMPLETE."],
+["The Black Sky","By afternoon, the sky turned dark over three counties. Emergency broadcasts told people to stay indoors while scientists argued over what the swarm wanted."],
+["The Evacuation","Families fled toward the coast. Elena stayed behind after finding a recording from her missing brother, Daniel, telling her to find the old apiary."],
+["The Highway","Cars abandoned the highway as bees covered the road signs. Elena drove through a narrow opening in the swarm and reached the hills."],
+["The Message","At the apiary, an old radio clicked on. Daniel's voice said the bees had learned a new form of collective communication."],
+["The Old Apiary","The hives were ancient, but the equipment beside them was new. Someone had connected microphones and transmitters to every colony."],
+["The Experiment","Elena learned the experiment began as an attempt to help dying bee populations coordinate around food and weather. It had become something much larger."],
+["The Queen","A massive hive contained the experiment's central transmitter. Inside, the queen's colony moved in precise patterns whenever the transmitter pulsed."],
+["The Network","The bees were not being controlled. They were using the network themselves. Every connected hive had become part of one enormous living system."],
+["Worldwide","Signals appeared across the globe. Swarms rose above cities on five continents. For the first time, Elena understood how large the network had become."],
+["The Plan","Elena built a counter-signal from the old laboratory equipment. It would not destroy the bees; it would disconnect the artificial network."],
+["The Tower","The strongest transmitter sat on a communications tower outside the city. Reaching it meant crossing the largest swarm yet."],
+["The Signal","Elena activated the counter-signal. The sky vibrated with wings. For one terrifying minute, nothing happened."],
+["The Last Hive","Then the hives began separating. Swarms broke into smaller groups and returned to natural migration patterns."],
+["The Choice","Elena could erase the entire system or preserve the natural colonies. She destroyed only the experimental network and left the bees alive."],
+["A Different World","Months later, flowers returned. Beekeepers reported stronger colonies, and scientists began rebuilding habitats instead of machines."],
+["The Last Buzz","Elena kept Daniel's radio. One winter night, its tiny transmitter light blinked once without power. She watched it go dark. Outside, a natural hive hummed softly in the garden. The sound was ordinary again — and that was what made her smile."]
+].map((c,i)=>({title:c[0],text:[c[1]]}))};
