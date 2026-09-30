@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Everpage — an independent digital publishing and reading house.">
+<title>Everpage — Read Beyond the Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <button class="brand" data-action="home"><span class="mark">E</span><span>EVERPAGE</span></button>
+  <nav>
+    <button data-action="home">Home</button>
+    <button data-action="library">Library</button>
+    <button data-action="about">About</button>
+  </nav>
+  <div class="nav-actions">
+    <button class="icon-btn" data-action="search" aria-label="Search">⌕</button>
+    <button class="profile-btn" data-action="profile">Reader</button>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">EVERPAGE PUBLISHING HOUSE</p>
+    <h1>Stories worth<br><em>staying up for.</em></h1>
+    <p class="lead">A premium home for original fiction, immersive reading, and stories made to live beyond the final page.</p>
+    <div class="hero-actions">
+      <button class="btn gold" data-action="open" data-book="zoo">Read The Zoo Escape</button>
+      <button class="btn ghost" data-action="library">Explore library</button>
+    </div>
+    <div class="hero-note"><span>20</span> chapters each · Two complete Everpage Originals</div>
+  </div>
+  <div class="hero-art"><div class="art-card"><span>EVERPAGE</span><b>ORIGINAL<br>FICTION</b><small>EST. 2026</small></div></div>
+</section>
+
+<section class="section" id="library">
+  <div class="section-head"><div><p class="eyebrow">THE CURRENT EDITION</p><h2>Everpage Originals</h2></div><span class="count">02 BOOKS</span></div>
+  <div class="book-grid" id="bookGrid"></div>
+</section>
+
+<section class="manifesto">
+  <p class="eyebrow">THE EVERPAGE IDEA</p>
+  <h2>Books should feel like places<br>you can disappear into.</h2>
+  <p>Everpage combines editorial storytelling with a calm, cinematic reading experience. No clutter. No distractions. Just the story.</p>
+</section>
+
+<section class="section features">
+  <div class="feature"><b>01</b><h3>Read anywhere</h3><p>Your progress is remembered on this device, so you can close the book without losing your place.</p></div>
+  <div class="feature"><b>02</b><h3>Find your next story</h3><p>Search titles, authors, genres, and chapters from one simple library.</p></div>
+  <div class="feature"><b>03</b><h3>Made for readers</h3><p>Keyboard-friendly controls, responsive layouts, and a distraction-free reader are built in.</p></div>
+</section>
+</main>
+
+<footer><div><strong>EVERPAGE</strong><span>Independent publishing · 2026</span></div><button data-action="about">About Everpage</button></footer>
+
+<div class="modal" id="readerModal" aria-hidden="true">
+ <div class="reader-shell">
+  <div class="reader-top"><button class="close" data-action="close">×</button><div><small id="readerSeries"></small><strong id="readerTitle"></strong></div><span id="progressLabel">1 / 20</span></div>
+  <article class="reader"><p class="eyebrow" id="chapterLabel"></p><h1 id="chapterTitle"></h1><div id="chapterText"></div></article>
+  <div class="reader-nav"><button class="btn ghost" id="prevBtn" data-action="prev">← Previous</button><button class="btn gold" id="nextBtn" data-action="next">Next chapter →</button></div>
+ </div>
+</div>
+
+<div class="modal small" id="searchModal" aria-hidden="true"><div class="dialog"><button class="close" data-action="close">×</button><p class="eyebrow">SEARCH EVERPAGE</p><h2>Find a story.</h2><input id="searchInput" placeholder="Search books, chapters, genres…" autocomplete="off"><div id="searchResults"></div></div></div>
+<div class="modal small" id="profileModal" aria-hidden="true"><div class="dialog"><button class="close" data-action="close">×</button><p class="eyebrow">READER PROFILE</p><h2>Your library.</h2><div id="profileStats"></div></div></div>
+<div class="modal small" id="aboutModal" aria-hidden="true"><div class="dialog"><button class="close" data-action="close">×</button><p class="eyebrow">ABOUT EVERPAGE</p><h2>A new page for publishing.</h2><p>Everpage is a fictional independent publishing house built around original stories and a polished digital reading room.</p><p class="muted">This project is an Everpage prototype. All stories and characters shown here are original fictional works.</p></div></div>
+<div class="toast" id="toast"></div>
+<script src="books/zoo-escape.js"></script>
+<script src="books/bee-invasion.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
